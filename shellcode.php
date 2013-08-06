@@ -1,8 +1,7 @@
 <?php
 /* PHP EXIF Backdoors generator using custom shellcode
  *  
- * About: PHPEB it's a small tool that generates and store your shellcode obfuscated in an 
- * 		  EXIF handlers, specified by user.  
+ * About: PHPEB is a small tool that generates and stores obfuscated shellcode in user specified EXIF handlers.
  * Version: 1.0
  * Author: En: Cyber Security Research Center from Romania (CCSIR)
  * 		   Ro: Centrul de Cercetare in Securitate Informatica din Romania (CCSIR)
