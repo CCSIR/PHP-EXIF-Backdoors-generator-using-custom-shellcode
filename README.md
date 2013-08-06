@@ -9,6 +9,7 @@ PHP EXIF Backdoors generator using custom shellcode
 
 > Started from Sucuri [Research](http://blog.sucuri.net/2013/07/malware-hidden-inside-jpg-exif-headers.html)
 
+> You have any other cool ideas for obfuscating the shellcode, feel free commit. 
 
 * __Version__ : 1.0
 * __Website__ : [Cyber Security Research Center from Romania](http://ccsir.org)
