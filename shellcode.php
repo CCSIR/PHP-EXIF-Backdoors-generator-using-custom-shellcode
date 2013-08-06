@@ -173,9 +173,8 @@ function generate() {
 
 	if($verbose) print " # PAYLOAD: \r\n".$payload."\r\n";
 
-	$regex = "/[".str_replace(array('\\','[','^','$',',','|','?','*','+','(','.',']'), 
-							  array('\\\\','\[','\^','\$','\,','\|','\?','\*','\+','\(','\.','\]'), 
-							  implode($random))."]/e";
+	$regex = "/[".preg_quote(implode($random))."]/e";
+
 	  
 	$sh = preg_replace(str_replace('/e','/',$regex),'',$payload);
 	if($verbose) print " # SHELLCODE REVERSED: \r\n" .$sh."\r\n";
