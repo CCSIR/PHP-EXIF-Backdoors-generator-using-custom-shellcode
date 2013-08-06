@@ -7,6 +7,8 @@ PHP EXIF Backdoors generator using custom shellcode
 
 > Another interesting point is that the image that we generate still load and work properly. 
 
+> Started from Sucuri Research.
+
 
 * __Version__ : 1.0
 * __Website__ : [Cyber Security Research Center from Romania](http://ccsir.org)
