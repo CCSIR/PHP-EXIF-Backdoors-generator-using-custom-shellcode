@@ -18,13 +18,6 @@ php phpeb.php [params]
 * -v verbose 1 or 0(optional, Default:0)
 * Default: !empty(\$1=@\$_GET[1]) && \$1(\$_GET[2]);
 	
-
-### Verion 1.0 stable 
-  - Automatic Crawling of plugins from Wordpress.org (Directory)
-  - Load plugins from your local plugins folder
-  - Scan all (white box pentesting) plugins using RIPS and show you an resume about what was found
-  - A proxy "WP Plugins Scanner to RIPS" that can show off you a detailed report
-
 ##Help
   - No need. Just download these files and upload in an environment that supports PHP
 
