@@ -5,7 +5,7 @@ PHP EXIF Backdoors generator using custom shellcode
 
 > Both functions are harmless by themselves. Exif_read_data is commonly used to read images and preg_replace to replace the content of strings. However, preg_replace has a hidden and tricky option where if you pass the “/e” modifier it will execute the content (eval), instead of just searching/replacing.
 
-> Another interesting point is that the image that we generate still loads and work properlys. 
+> Another interesting point is that the image that we generate still loads and works properly. 
 
 > Started from Sucuri Research.
 
