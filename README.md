@@ -7,8 +7,19 @@ PHP EXIF Backdoors generator using custom shellcode
 * __Website__ : [Cyber Security Research Center from Romania](http://ccsir.org)
 * __Contact__ : contact [at] ccsir [dot] org
  
+##Usage
+php phpeb.php [params]
+
 ##Params
-### 1.0 
+* -i path_to_image.jpg
+* -o path_to_backdoored_image.jpg
+* -s shellcode (optional)
+* -h EXIF headers (N/A in v1.0, Default:Make,Model)
+* -v verbose 1 or 0(optional, Default:0)
+* Default: !empty(\$1=@\$_GET[1]) && \$1(\$_GET[2]);
+	
+
+### Verion 1.0 stable 
   - Automatic Crawling of plugins from Wordpress.org (Directory)
   - Load plugins from your local plugins folder
   - Scan all (white box pentesting) plugins using RIPS and show you an resume about what was found
