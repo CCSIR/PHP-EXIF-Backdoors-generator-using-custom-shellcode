@@ -8,7 +8,7 @@ PHP EXIF Backdoors generator using custom shellcode
 * __Contact__ : contact [at] ccsir [dot] org
  
 ##Usage
-php phpeb.php [params]
+> php phpeb.php [params]
 
 ##Params
 * -i path_to_image.jpg
