@@ -1,7 +1,7 @@
 PHP EXIF Backdoors generator using custom shellcode
 ==================
 
-> PHPEB is a small tool that generates and stores obfuscated shellcode in user specified EXIF handlers. The backdoor is divided into two parts. The first part is a mix of the exif_read_data function to read the image headers and the preg_replace function to execute the content. 
+> PHPEB is a small tool that generates and stores obfuscated shellcode in user specified EXIF handlers. The backdoor is divided into two parts. The first part is a mix of the exif_read_data function to read the image headers and the preg_replace function to execute the content and the second is the real payload obfuscated in EXIF a JPG/TIFF file headers. 
 
 > Both functions are harmless by themselves. Exif_read_data is commonly used to read images and preg_replace to replace the content of strings. However, preg_replace has a hidden and tricky option where if you pass the “/e” modifier it will execute the content (eval), instead of just searching/replacing.
 
