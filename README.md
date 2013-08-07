@@ -11,7 +11,7 @@ PHP EXIF Backdoors generator using custom shellcode
 
 > If you have any other cool ideas for obfuscating the shellcode, feel free to commit. 
 
-> Note: This application has been created as a POC and it has an educational purpose only. We are not responsibles for any damage you may inflict using this tool.
+> Note: This application has been created as a POC and it has an educational purpose only. We are not responsibles for any damage you may inflict/get using this tool.
 
 * __Version__ : 1.0
 * __Website__ : [Cyber Security Research Center from Romania](http://ccsir.org)
