@@ -62,7 +62,7 @@ for($i=0;$i<sizeof($argv); $i+=2) {
 	} 
 }
 
-$used    =  array();
+$used    = array();
 $regex   = $payload = '';
 $headers = explode(",", $headers);
 
@@ -179,7 +179,7 @@ function generate() {
 	$sh = preg_replace(str_replace('/e','/',$regex),'',$payload);
 	if($verbose) print " # SHELLCODE REVERSED: \r\n" .$sh."\r\n";
 	if($verbose) print " # REGEX: \r\n".$regex."\r\n";
-	if($verbose) print " # CHECK: ".(trim($sh) == trim($shellcode) ? "Good." : '')."\r\n";
+	if($verbose) print " # CHECK: ".(trim($sh) == trim($shellcode) ? "Good." : 'Bad.')."\r\n";
 	if(trim($sh) != trim($shellcode)) {
 		print " # Invalid reversed shellcode. \r\n";
 		exit(1);
